@@ -14,9 +14,7 @@ header {
 }
 
 nav {
-display: inline;
-
-
+  display: inline;
 }
 
 li {
@@ -27,7 +25,7 @@ li {
 ul {
   list-style-type: none;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 footer {
@@ -44,7 +42,6 @@ main {
   margin: 50px auto;
   font-size: larger;
 }
-
 
 section {
   background-color: rgb(195, 202, 209);
