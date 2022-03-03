@@ -12,7 +12,7 @@ function Place(props: PlaceProps): JSX.Element {
   return (
     <div>
       <img src={props.mainImage} alt={props.imageAlt} />
-      <h3>{props.title}</h3>
+      <h3><strong>{props.title}</strong></h3>
       <h4>
         {props.placeName}, {props.countryName} (
         <a href={props.locationMap}>

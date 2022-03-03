@@ -1,3 +1,11 @@
+/*colours
+#F6F6F2 - CREAM (SECTION BACKGROUND)
+#C2EDCE - MINT GREEN
+#BADFE7 - LIGHT BLUE
+#6FB3B8 - BLUE (TEXT ON SECTION)
+#388087 - DARK BLUE (HEADER AND FOOTER BACKGROUND)
+*/
+
 body {
   margin: 0;
   font-size: 23px;
@@ -6,8 +14,8 @@ body {
 }
 
 header {
-  background-color: darkslategrey;
-  color: white;
+  background-color: #388087;
+  color: #F6F6F2;
   padding: 40px;
   margin: 0 auto;
   font-size: 30px;
@@ -28,24 +36,29 @@ ul {
   padding: 0;
 }
 
+a {
+ text-decoration: none;
+ color: #F6F6F2;
+}
+
 footer {
-  background-color: darkslategrey;
-  color: white;
+  background-color: #388087;
+  color: #F6F6F2;
   padding: 40px;
   margin: 0 auto;
   font-size: larger;
 }
 
 main {
-  background-color: lightslategray;
+  background-color: #F6F6F2 ;
   padding: 50px 0 50px 0;
-  margin: 50px auto;
+  margin: 0 auto;
   font-size: larger;
 }
 
 section {
-  background-color: rgb(195, 202, 209);
-  color: black;
+  background-color: #6FB3B8;
+  color: darkslategray;
   width: 50%;
   border-radius: 25px;
   margin: 60px auto 40px auto;

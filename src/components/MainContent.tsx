@@ -7,7 +7,7 @@ function MainContent(): JSX.Element {
       <ul>
         <section id="canada">
           <Place
-            title={"McLeod Lake"}
+            title={"MCLEOD LAKE"}
             placeName={"British Columbia"}
             countryName={"Canada"}
             mainImage={"/images/canada.jpeg"}
