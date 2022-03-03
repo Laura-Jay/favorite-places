@@ -1,23 +1,33 @@
 function PageFooter(): JSX.Element {
   return (
     <footer>
-      <h3><strong>Academy Cohort Pages</strong></h3>
+      <h3>
+        <strong>Academy Cohort Pages</strong>
+      </h3>
       <nav id="links">
-      <ul>
+        <ul>
           <li>
-            <a href="https://owen-fav-places.netlify.app/"><strong>Owen's Page</strong></a>
+            <a href="https://owen-fav-places.netlify.app/">
+              <strong>Owen's Page</strong>
+            </a>
           </li>
           <li>|</li>
           <li>
-            <a href="https://owen-fav-places.netlif"><strong>Nobeen's Page</strong></a>
+            <a href="https://owen-fav-places.netlif">
+              <strong>Nobeen's Page</strong>
+            </a>
           </li>
           <li>|</li>
           <li>
-            <a href="https://owen-fav-places.netlif"><strong>Christian's Page</strong></a>
+            <a href="https://owen-fav-places.netlif">
+              <strong>Christian's Page</strong>
+            </a>
           </li>
           <li>|</li>
           <li>
-            <a href="https://owen-fav-places.netlif"><strong>Soso's Page</strong></a>
+            <a href="https://owen-fav-places.netlif">
+              <strong>Soso's Page</strong>
+            </a>
           </li>
         </ul>
       </nav>
