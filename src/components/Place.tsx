@@ -11,7 +11,12 @@ interface PlaceProps {
 function Place(props: PlaceProps): JSX.Element {
   return (
     <div>
-      <img src={props.mainImage} alt={props.imageAlt} />
+      <img
+        src={props.mainImage}
+        alt={props.imageAlt}
+        height={200}
+        width={200}
+      />
       <h2>{props.title}</h2>
       <h3>
         {props.placeName}, {props.countryName} (
