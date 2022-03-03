@@ -33,9 +33,7 @@ function MainContent(): JSX.Element {
         mainImage={"https://unsplash.com/photos/Ddp_T92Vjus"}
         imageAlt={"A footpath in the mountains."}
         locationMap={"https://goo.gl/maps/rw2KgmJ258w2hNQz6"}
-        description={
-          "Long walks, spectacular scenery and 10/10 cream teas!. "
-        }
+        description={"Long walks, spectacular scenery and 10/10 cream teas!. "}
       />
       <Place
         title={"Sheffield"}
