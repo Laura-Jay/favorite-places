@@ -1,4 +1,4 @@
-import "../AppStyle";
+import "./AppStyle.css";
 
 function PageHeader(): JSX.Element {
   return (

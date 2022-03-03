@@ -1,5 +1,5 @@
 import Place from "./Place";
-import "../AppStyle";
+import "./AppStyle.css";
 //import { greet } from "../utils/greet";
 
 function MainContent(): JSX.Element {
