@@ -1,4 +1,4 @@
-import "./AppStyle.css";
+
 
 function PageFooter(): JSX.Element {
   return (

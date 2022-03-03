@@ -14,14 +14,12 @@ function Place(props: PlaceProps): JSX.Element {
       <img
         src={props.mainImage}
         alt={props.imageAlt}
-        height={200}
-        width={200}
       />
-      <h2>{props.title}</h2>
-      <h3>
+      <h3>{props.title}</h3>
+      <h4>
         {props.placeName}, {props.countryName} (
-        <a href={props.locationMap}>map link</a>)
-      </h3>
+        <a href={props.locationMap}><em>map link</em></a>)
+      </h4>
       <p>
         <em>{props.description}</em>
       </p>
