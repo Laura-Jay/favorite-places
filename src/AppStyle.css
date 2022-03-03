@@ -41,6 +41,13 @@ a {
   color: #f6f6f2;
 }
 
+iframe {
+  width:600;
+  height:450;
+  border:0;  
+  border-radius: 10px;
+}
+
 footer {
   background-color: #388087;
   color: #f6f6f2;

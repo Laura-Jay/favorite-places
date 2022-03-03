@@ -5,6 +5,8 @@ interface PlaceProps {
   mainImage: string;
   imageAlt: string;
   locationMap: string;
+  miniMap: string;
+  mapTitle: string;
   description: string;
 }
 
@@ -25,6 +27,7 @@ function Place(props: PlaceProps): JSX.Element {
       <p>
         <em>{props.description}</em>
       </p>
+      <iframe src={props.miniMap} title={props.mapTitle}></iframe>
     </div>
   );
 }
