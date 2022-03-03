@@ -43,7 +43,7 @@ function MainContent(): JSX.Element {
       <ul>
         <section id="canada">
           <Place
-            title={"MCLEOD LAKE"}
+            title={"McLeod Lake"}
             placeName={"British Columbia"}
             countryName={"Canada"}
             mainImage={"/images/canada.jpeg"}
@@ -88,7 +88,7 @@ function MainContent(): JSX.Element {
             }
             mapTitle={"Wales Map"}
             description={
-              "Long walks, spectacular scenery and 10/10 cream teas!. "
+              "Long walks, spectacular scenery and 10/10 cream teas!"
             }
           />
         </section>

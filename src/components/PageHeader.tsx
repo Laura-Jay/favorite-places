@@ -7,25 +7,25 @@ function PageHeader(): JSX.Element {
       <nav>
         <ul>
           <li>
-            <a href="#canada">
+            <a href="#canada" id="navLink">
               <strong>Canada</strong>
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="#budapest">
+            <a href="#budapest" id="navLink">
               <strong>Budapest</strong>
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="#wales">
+            <a href="#wales" id="navLink">
               <strong>Wales</strong>
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="#sheffield">
+            <a href="#sheffield" id="navLink">
               <strong>Sheffield</strong>
             </a>
           </li>

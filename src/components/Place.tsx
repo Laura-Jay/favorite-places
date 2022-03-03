@@ -13,10 +13,10 @@ interface PlaceProps {
 function Place(props: PlaceProps): JSX.Element {
   return (
     <div>
-      <img src={props.mainImage} alt={props.imageAlt} />
-      <h3>
+      <h2>
         <strong>{props.title}</strong>
-      </h3>
+      </h2>
+      <img src={props.mainImage} alt={props.imageAlt} />
       <h4>
         {props.placeName}, {props.countryName} (
         <a href={props.locationMap}>

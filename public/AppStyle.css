@@ -3,7 +3,7 @@
 #C2EDCE - MINT GREEN
 #BADFE7 - LIGHT BLUE
 #6FB3B8 - BLUE (TEXT ON SECTION)
-#388087 - DARK BLUE (HEADER AND FOOTER BACKGROUND)
+#1b5c7a - DARK BLUE (HEADER AND FOOTER BACKGROUND)
 */
 
 body {
@@ -11,10 +11,14 @@ body {
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
-  background-color: #388087;
+  background-color: #1b5c7a;
   color: #f6f6f2;
   padding: 40px;
   margin: 0 auto;
@@ -22,12 +26,10 @@ header {
 }
 
 nav {
-  display: inline;
-}
-
-li {
-  display: inline;
-  padding: 10px;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  background-color: #1b5c7a;
 }
 
 ul {
@@ -36,9 +38,20 @@ ul {
   padding: 0;
 }
 
+li {
+  display: inline;
+  padding: 5px;
+
+
+}
+a:hover {
+  color:#C2EDCE ;
+  
+}
+
 a {
   text-decoration: none;
-  color: #f6f6f2;
+  color: #6FB3B8;
 }
 
 iframe {
@@ -46,10 +59,11 @@ iframe {
   height: 450;
   border: 0;
   border-radius: 10px;
+  margin: 20px;
 }
 
 footer {
-  background-color: #388087;
+  background-color: #1b5c7a;
   color: #f6f6f2;
   padding: 40px;
   margin: 0 auto;
@@ -57,14 +71,14 @@ footer {
 }
 
 main {
-  background-color: #f6f6f2;
   padding: 50px 0 50px 0;
   margin: 0 auto;
   font-size: larger;
+  overflow-y: scroll;
 }
 
 section {
-  background-color: #6fb3b8;
+  background-color: #f6f6f2;
   color: darkslategray;
   width: 50%;
   border-radius: 25px;
@@ -78,3 +92,4 @@ img {
   width: 500px;
   object-fit: cover;
 }
+
