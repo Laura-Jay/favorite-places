@@ -1,18 +1,8 @@
-interface PlaceProps {
-  title: string;
-  placeName: string;
-  countryName: string;
-  mainImage: string;
-  imageAlt: string;
-  locationMap: string;
-  miniMap: string;
-  mapTitle: string;
-  description: string;
-}
+import PlaceProps from "./PlaceInterface";
 
 function Place(props: PlaceProps): JSX.Element {
   return (
-    <div>
+    <div id={props.linkId}>
       <h2>
         <strong>{props.title}</strong>
       </h2>
