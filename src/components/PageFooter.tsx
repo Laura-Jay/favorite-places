@@ -13,20 +13,20 @@ function PageFooter(): JSX.Element {
           </li>
           <li>|</li>
           <li>
-            <a href="https://owen-fav-places.netlif">
-              <strong>Nobeen's Page</strong>
+            <a href="https://peaceful-lamarr-27496b.netlify.app/">
+              <strong>Emmanuel's Page</strong>
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="https://owen-fav-places.netlif">
-              <strong>Christian's Page</strong>
+            <a href="https://friendly-montalcini-659622.netlify.app/">
+              <strong>Mat's Page</strong>
             </a>
           </li>
           <li>|</li>
           <li>
-            <a href="https://owen-fav-places.netlif">
-              <strong>Soso's Page</strong>
+            <a href="https://temis-favourite-places.netlify.app/">
+              <strong>Temi's Page</strong>
             </a>
           </li>
         </ul>

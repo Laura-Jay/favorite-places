@@ -2,7 +2,7 @@ function PageHeader(): JSX.Element {
   return (
     <header>
       <h1>
-        <strong>MY FAVOURITE PLACES</strong>
+        <strong>My Favourite Places</strong>
       </h1>
       <nav>
         <ul>

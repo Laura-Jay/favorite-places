@@ -1,18 +1,8 @@
-interface PlaceProps {
-  title: string;
-  placeName: string;
-  countryName: string;
-  mainImage: string;
-  imageAlt: string;
-  locationMap: string;
-  miniMap: string;
-  mapTitle: string;
-  description: string;
-}
+import PlaceProps from "./PlaceInterface";
 
 function Place(props: PlaceProps): JSX.Element {
   return (
-    <div>
+    <div id={props.linkId}>
       <h2>
         <strong>{props.title}</strong>
       </h2>
@@ -24,9 +14,7 @@ function Place(props: PlaceProps): JSX.Element {
         </a>
         )
       </h4>
-      <p>
-        <em>{props.description}</em>
-      </p>
+      <p>{props.description}</p>
       <iframe src={props.miniMap} title={props.mapTitle}></iframe>
     </div>
   );

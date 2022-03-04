@@ -1,43 +1,36 @@
+import PlaceProps from "./PlaceInterface";
 import Place from "./Place";
-//import { greet } from "../utils/greet";
-
-/*const arrayOfPlaces = [
-  {  title: "McLeod Lake",
-    placeName: "British Columbia",
-    countryName: "Canada",
-    mainImage: "/images/canada.jpeg",
-    imageAlt: "A lake in the mountains",
-    locationMap: "https://goo.gl/maps/rg3UF4WUfEhjGAe98",
-    description: "Ice melt blue lakes, endless forrests and mountains that touch the sky."
-  },
-  {  title: "Matthias Church",
-    placeName: "Budapest",
-    countryName: "Hungary",
-    mainImage: "/images/budapest.jpeg",
-    imageAlt: "Budapest Central Square",
-    locationMap: "https://goo.gl/maps/WdE1mHHxPRdv9Dw38",
-    description: "A bustling cultural square filled with beautiful architecture."
-  },
-  {  title: "Betws-y-Coed",
-    placeName: "Wales",
-    countryName: "UK",
-    mainImage: "/images/wales.jpeg",
-    imageAlt: "A footpath in the mountains.",
-    locationMap: "https://goo.gl/maps/rw2KgmJ258w2hNQz6",
-    description: "Long walks, spectacular scenery and 10/10 cream teas!."
-  },
-  {  title: "Sheffield",
-  placeName: "England",
-  countryName: "UK",
-  mainImage: "/images/sheffield.jpeg",
-  imageAlt: "The industrial city of Sheffield.",
-  locationMap: "https://goo.gl/maps/rg3UF4WUfEhjGAe98",
-  description: "Hidden in the Peak District, Sheffield is the hidden gem of the North."
-},
-  ];
-*/
+import arrayOfPlaces from "./PlaceArrayObject";
 
 function MainContent(): JSX.Element {
+  const placesArray = arrayOfPlaces.map(PlaceContent);
+  return (
+    <>
+      <main>{placesArray}</main>
+    </>
+  );
+}
+
+function PlaceContent(props: PlaceProps): JSX.Element {
+  return (
+    <section>
+      <Place
+        title={props.title}
+        placeName={props.placeName}
+        countryName={props.countryName}
+        mainImage={props.mainImage}
+        imageAlt={props.imageAlt}
+        locationMap={props.locationMap}
+        miniMap={props.miniMap}
+        mapTitle={props.mapTitle}
+        description={props.description}
+        linkId={props.linkId}
+      />
+    </section>
+  );
+}
+
+/*function MainContent(): JSX.Element {
   return (
     <main>
       <ul>
@@ -113,5 +106,6 @@ function MainContent(): JSX.Element {
     </main>
   );
 }
+*/
 
 export default MainContent;
