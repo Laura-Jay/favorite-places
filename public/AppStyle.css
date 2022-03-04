@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-size: 23px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial;
   text-align: center;
   background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ header {
   padding: 40px;
   margin: 0 auto;
   font-size: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster', Arial;
 }
 
 nav {
@@ -71,23 +71,36 @@ footer {
   font-size: larger;
 }
 
+main {
+  padding: 50px 0 50px 0;
+  margin: 0 auto;
+  font-size: larger;
+}
+
 section {
-  background-color: #f6f6f2;
+  background-color: rgba(246, 246, 242, 0.6);
   color: darkslategray;
   width: 50%;
   border-radius: 25px;
-  padding: 50px;
+  padding: 50px 50px 50px 50px;
   margin: 60px auto 40px auto;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 img {
   border-radius: 25px;
-  height: 500px;
-  width: 500px;
+  width: 80%;
+  height: auto;
+  aspect-ratio: 16/9;
   object-fit: cover;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 800px) {
   img {
     width: 80%;
     height: 70%;
@@ -95,6 +108,9 @@ img {
   iframe {
     width: 60%;
     height: 50%;
+  }
+  body {
+    font-size: 15px;
   }
 }
 

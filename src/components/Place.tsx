@@ -14,9 +14,7 @@ function Place(props: PlaceProps): JSX.Element {
         </a>
         )
       </h4>
-      <p>
-        <em>{props.description}</em>
-      </p>
+      <p>{props.description}</p>
       <iframe src={props.miniMap} title={props.mapTitle}></iframe>
     </div>
   );

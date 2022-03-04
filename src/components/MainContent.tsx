@@ -4,11 +4,11 @@ import arrayOfPlaces from "./PlaceArrayObject";
 
 function MainContent(): JSX.Element {
   const placesArray = arrayOfPlaces.map(PlaceContent);
-  return <>
-  <main>
-    {placesArray};
-  </main>
-  </>;
+  return (
+    <>
+      <main>{placesArray}</main>
+    </>
+  );
 }
 
 function PlaceContent(props: PlaceProps): JSX.Element {
